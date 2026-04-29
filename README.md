@@ -4,10 +4,12 @@ A lightweight keyword-based question answering system for PDF documents built us
 
 ---
 ## Project Structure
+```
 DOCREADER/
-├── app.py
-├── requirements.txt
-└── README.md
+│── app.py
+│── requirements.txt
+│── README.md
+```
 ## Features
 
 - Upload and process PDF documents

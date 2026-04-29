@@ -2,6 +2,13 @@
 
 A lightweight keyword-based question answering system for PDF documents built using Streamlit and pdfplumber.
 
+---
+## Project Structure
+DOCREADER/
+│── app.py
+│── requirements.txt
+│── README.md
+
 ## Features
 
 - Upload and process PDF documents
@@ -46,6 +53,24 @@ A lightweight keyword-based question answering system for PDF documents built us
 - **Scoring Mechanism**: Ranks chunks based on keyword frequency
 - **Results**: Returns the top 3 highest-scoring chunks as expandable cards.
 - **Answer Extraction**: Selects the most relevant sentence from the top-ranked chunk
+
+## Example Usage
+**Sample Query**: "What is the main objective of the document?"
+**Output**:
+- Top 3 relevant chunks
+- Most relevant sentence highlighted
+
+## Limitations
+- Uses keyword matching (no semantic understanding)
+- May miss context for complex queries
+- Performance depends on text quality in PDF
+
+## Future Improvements
+- Semantic search using embeddings
+- Integration with LLMs (RAG)
+- Multi-document support
+- Highlighting matched keywords in UI
+
 
 ## Notes
 
